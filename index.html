@@ -42,6 +42,7 @@
   .barra button { font: 500 0.9rem/1 var(--sans); color: var(--texto); background: rgba(15, 14, 21, 0.6); border: 1px solid var(--borde); border-radius: 999px; padding: 0.45rem 0.9rem; cursor: pointer; }
   .barra button[aria-pressed="true"] { border-color: var(--farol); color: var(--farol); }
 
+  @media (max-width: 640px) { header.barra { position: static; } .barra .ancho { padding-block: 0.6rem; } }
   .portada { position: relative; }
   .portada img { display: block; width: 100%; aspect-ratio: 1024 / 500; object-fit: cover; max-width: 100%; }
   .portada::after { content: ""; position: absolute; inset: auto 0 0 0; height: 40%; background: linear-gradient(transparent, var(--noche)); }
