@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacidad de El Errante</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans:wght@400;500&display=swap">
+<link rel="icon" href="img/favicon.png">
+<style>
+  /* Una sola columna de lectura, como una hoja del juego: la tipografía Alegreya del propio juego, tinta cálida sobre papel o noche */
+  :root {
+    --fondo: #f6f3ec;
+    --tinta: #2a2520;
+    --suave: #6e655a;
+    --linea: #d9d0c1;
+    --ambar: #9a6a2c;
+    --serif: "Alegreya", Georgia, "Times New Roman", serif;
+    --sans: "Alegreya Sans", "Segoe UI", system-ui, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --fondo: #14121a; --tinta: #ece5d8; --suave: #a69d90; --linea: #332f3a; --ambar: #e0b070; color-scheme: dark; }
+  }
+  :root[data-theme="dark"] { --fondo: #14121a; --tinta: #ece5d8; --suave: #a69d90; --linea: #332f3a; --ambar: #e0b070; color-scheme: dark; }
+
+  body {
+    margin: 0;
+    background: var(--fondo);
+    color: var(--tinta);
+    font: 400 1.125rem/1.65 var(--serif);
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  main { max-width: 40rem; margin: 0 auto; padding-block: 3rem 4rem; }
+  .juego { font: 500 0.8rem/1 var(--sans); letter-spacing: 0.14em; text-transform: uppercase; color: var(--ambar); margin: 0 0 0.75rem; }
+  h1 { font-weight: 700; font-size: 2.1rem; line-height: 1.15; margin: 0 0 0.4rem; text-wrap: balance; }
+  .fecha { font: 400 0.95rem/1.4 var(--sans); color: var(--suave); margin: 0 0 2.2rem; }
+  .resumen { font-size: 1.25rem; font-style: italic; border-left: 2px solid var(--ambar); padding-left: 1rem; margin: 0 0 2rem; }
+  h2 { font-weight: 500; font-size: 1.3rem; margin: 2rem 0 0.35rem; text-wrap: balance; }
+  p { margin: 0.4rem 0; }
+  nav { display: flex; gap: 1rem; flex-wrap: wrap; font: 500 0.95rem/1 var(--sans); margin: 0 0 2.5rem; }
+  nav a { color: var(--ambar); text-decoration: none; border-bottom: 1px solid currentColor; padding-bottom: 2px; }
+  nav a:focus-visible { outline: 2px solid var(--ambar); outline-offset: 3px; }
+  hr { border: 0; border-top: 1px solid var(--linea); margin: 3.5rem 0 3rem; }
+</style>
+</head>
+<body>
+<main>
+  <section id="es" lang="es">
+    <p class="juego">El Errante: Tierra de Ecos</p>
+    <h1>Política de privacidad</h1>
+    <p class="fecha">Última actualización: 15 de noviembre de 2026</p>
+    <nav aria-label="Idioma"><a href="#es">Español</a><a href="#en">English</a></nav>
+
+    <p class="resumen">El juego no recoge, no envía y no comparte ningún dato.</p>
+
+    <p>El Errante: Tierra de Ecos es un juego de Miguel González Pérez (Santander, España). Esta página explica qué
+    datos trata el juego.</p>
+
+    <h2>Datos que se recogen</h2>
+    <p>Ninguno. El juego no tiene cuentas, anuncios, analítica, compras ni conexión a internet.</p>
+
+    <h2>Datos que se guardan en tu dispositivo</h2>
+    <p>Las partidas y los ajustes (idioma, volumen, controles) se guardan solo en la memoria del propio dispositivo,
+    en la carpeta privada de la aplicación. Nadie más tiene acceso a ellos y se borran al desinstalar el juego.</p>
+
+    <h2>Permisos</h2>
+    <p>El juego solo pide el permiso de vibración, para la respuesta de los mandos. No usa la cámara, el micrófono,
+    la ubicación ni los contactos.</p>
+
+    <h2>Menores</h2>
+    <p>Como no recoge datos, el juego no trata datos de menores.</p>
+
+    <h2>Cambios y contacto</h2>
+    <p>Si esta política cambia, se actualizará en esta página. Para cualquier duda, escribe a la dirección de
+    contacto que aparece en la ficha del juego en Google Play.</p>
+  </section>
+
+  <hr>
+
+  <section id="en" lang="en">
+    <p class="juego">El Errante: Land of Echoes</p>
+    <h1>Privacy policy</h1>
+    <p class="fecha">Last updated: 15 November 2026</p>
+
+    <p class="resumen">The game does not collect, send or share any data.</p>
+
+    <p>El Errante: Land of Echoes is a game by Miguel González Pérez (Santander, Spain). This page explains what data
+    the game handles.</p>
+
+    <h2>Data collected</h2>
+    <p>None. The game has no accounts, ads, analytics, purchases or internet connection.</p>
+
+    <h2>Data stored on your device</h2>
+    <p>Saved games and settings (language, volume, controls) are stored only on the device itself, in the app's
+    private folder. Nobody else can access them, and they are deleted when the game is uninstalled.</p>
+
+    <h2>Permissions</h2>
+    <p>The game only requests the vibration permission, for controller feedback. It does not use the camera,
+    microphone, location or contacts.</p>
+
+    <h2>Children</h2>
+    <p>Since it collects no data, the game does not process children's data.</p>
+
+    <h2>Changes and contact</h2>
+    <p>If this policy changes, this page will be updated. For any question, write to the contact address shown on
+    the game's Google Play page.</p>
+  </section>
+</main>
+<p style="font-family:var(--sans);margin-top:3rem"><a href="./" style="color:var(--ambar)">El Errante</a></p>
+</body>
+</html>

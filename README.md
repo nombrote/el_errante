@@ -1,0 +1,68 @@
+<p align="center">
+  <img src="img/portada_es.jpg" alt="El Errante: Tierra de Ecos" width="100%">
+</p>
+
+<h1 align="center">El Errante: Tierra de Ecos</h1>
+
+<p align="center">
+  Metroidvania 2D de cuento oscuro · Android, Android TV, Fire TV y Windows<br>
+  <b>Gratis, sin anuncios, sin compras y sin conexión · 11 idiomas</b>
+</p>
+
+<p align="center">
+  <a href="https://nombrote.github.io/el_errante/">Web del juego</a> ·
+  <a href="https://github.com/nombrote/el_errante/releases/latest">Descargar la última versión</a> ·
+  <a href="https://nombrote.github.io/el_errante/privacidad.html">Política de privacidad</a>
+</p>
+
+---
+
+Bajo la aldea de **Pozoalto** se abre un mundo hundido. **El Errante**, un pequeño viajero encapuchado con su hoz,
+baja por el pozo para descubrir qué queda ahí abajo.
+
+<table>
+  <tr>
+    <td width="50%"><img src="img/es_3_ruinas.jpg" alt="Ruinas Olvidadas"></td>
+    <td width="50%"><img src="img/es_5_bosque.jpg" alt="Bosque Subterráneo"></td>
+  </tr>
+  <tr>
+    <td><img src="img/es_6_campanero.jpg" alt="El Campanero"></td>
+    <td><img src="img/es_8_vigia.jpg" alt="El Vigía hueco"></td>
+  </tr>
+</table>
+
+## Descargas
+
+En [Releases](https://github.com/nombrote/el_errante/releases/latest):
+
+| Archivo | Para |
+|---|---|
+| `ElErrante-Android.apk` | Teléfono, tableta, Android TV y Fire TV (Android 5 o superior) |
+| `ElErrante-Windows.zip` | Windows 10 y 11 (descomprimir y abrir `ElErrante.exe`) |
+
+**Android:** abre el APK en el teléfono y, si lo pide, permite instalar aplicaciones desde el navegador.
+**Fire TV:** instala la app «Downloader», permítele instalar apps desconocidas y descarga el APK desde ella.
+**Windows:** si SmartScreen avisa, «Más información» → «Ejecutar de todas formas».
+
+## El juego
+
+- Seis zonas y 59 salas conectadas, con atajos, muros secretos y salas escondidas.
+- Salto variable, impulso, doble salto y garra; cada habilidad abre caminos nuevos.
+- Combate con la hoz, jefes con varias fases, emblemas y vendedores escondidos.
+- Cooperativo para dos jugadores con mando.
+- Pantalla táctil, mando o mando de la tele.
+- Español, English, Français, Deutsch, Italiano, Português, Русский, 日本語, 한국어, 中文, Polski.
+
+---
+
+## English
+
+*El Errante: Land of Echoes* is a dark fairy-tale 2D metroidvania for Android, Android TV, Fire TV and Windows.
+Free, no ads, no purchases, no internet needed, in 11 languages.
+Download it from [Releases](https://github.com/nombrote/el_errante/releases/latest) or visit the
+[game's website](https://nombrote.github.io/el_errante/).
+
+---
+
+Este repositorio solo contiene las versiones publicadas y la web del juego; el código no es público.
+Un juego de Miguel González Pérez (Santander) y Chati.AI, con Claude. Todos los derechos reservados.
