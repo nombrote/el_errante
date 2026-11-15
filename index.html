@@ -81,6 +81,11 @@
   h2 { font-weight: 700; font-size: 1.7rem; margin: 0 0 1rem; text-wrap: balance; }
   h3 { font: 700 1.05rem/1.3 var(--sans); margin: 0 0 0.35rem; color: var(--farol); }
 
+  .videos { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 15rem); gap: 0.75rem; align-items: start; }
+  .videos iframe { display: block; width: 100%; border: 1px solid var(--borde); border-radius: 6px; background: #000; }
+  .videos .ancho16 { aspect-ratio: 16 / 9; }
+  .videos .alto916 { aspect-ratio: 9 / 16; }
+  @media (max-width: 720px) { .videos { grid-template-columns: minmax(0, 1fr); } .videos .alto916 { max-width: 20rem; margin: 0 auto; } }
   .galeria { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr)); gap: 0.75rem; }
   .galeria img { width: 100%; max-width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 6px; border: 1px solid var(--borde); display: block; }
 
@@ -144,6 +149,14 @@
   <p class="nota" data-l="en">Free, no ads, no purchases, no internet needed. <a href="https://github.com/nombrote/el_errante/releases">All versions</a></p>
   <p><a class="cafe" href="https://paypal.me/nombrote"><span aria-hidden="true">☕</span> <span data-l="es">Invítame a un café</span><span data-l="en">Buy me a coffee</span></a></p>
 </div>
+
+<section class="ancho" aria-labelledby="t-videos">
+  <h2 id="t-videos"><span data-l="es">Vídeos</span><span data-l="en">Videos</span></h2>
+  <div class="videos">
+    <iframe class="ancho16" src="https://www.youtube-nocookie.com/embed/2wGDTcnBWi8" title="El Errante: Tierra de Ecos — tráiler" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe class="alto916" src="https://www.youtube-nocookie.com/embed/EfR6pUPPLS0" title="El Errante: Tierra de Ecos — short" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+</section>
 
 <section class="ancho" aria-labelledby="t-capturas">
   <h2 id="t-capturas"><span data-l="es">Capturas</span><span data-l="en">Screenshots</span></h2>
