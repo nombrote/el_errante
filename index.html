@@ -72,7 +72,8 @@
   .boton { display: inline-flex; flex-direction: column; align-items: flex-start; gap: 0.15rem; min-width: 13rem; text-decoration: none; color: var(--noche); background: var(--farol); border-radius: 10px; padding: 0.8rem 1.2rem; font: 700 1.1rem/1.2 var(--sans); }
   .boton small { font: 400 0.85rem/1.2 var(--sans); opacity: 0.8; }
   .boton.otro { background: transparent; color: var(--texto); border: 1px solid var(--borde); }
-  .boton.pronto { opacity: 0.6; cursor: default; }
+  .cafe { display: inline-flex; align-items: center; gap: 0.45rem; margin-top: 0.4rem; font: 500 1rem/1 var(--sans); color: var(--farol); text-decoration: none; border: 1px solid var(--farol); border-radius: 999px; padding: 0.55rem 1rem; }
+  .cafe:hover { background: rgba(232, 180, 104, 0.12); }
   .linea { font: 500 1.05rem/1.5 var(--sans); color: var(--eco); margin: 1.4rem auto 0; max-width: 40rem; text-wrap: balance; }
   .nota { font: 400 0.95rem/1.5 var(--sans); color: var(--suave); margin-top: 1rem; }
 
@@ -132,15 +133,16 @@
       <span data-l="es">Descargar para Android</span><span data-l="en">Download for Android</span>
       <small data-l="es">Teléfono, tableta, Android TV y Fire TV · APK</small><small data-l="en">Phone, tablet, Android TV and Fire TV · APK</small>
     </a>
-    <span class="boton otro pronto" aria-disabled="true">
-      <span>Windows</span>
-      <small data-l="es">Muy pronto</small><small data-l="en">Coming soon</small>
-    </span>
+    <a class="boton otro" href="https://github.com/nombrote/el_errante/releases/latest/download/ElErrante-Windows.zip">
+      <span data-l="es">Descargar para Windows</span><span data-l="en">Download for Windows</span>
+      <small>Windows 10 / 11 · ZIP</small>
+    </a>
   </div>
   <p class="linea" data-l="es">Un metroidvania en la línea de Hollow Knight: exploración, combate exigente y un mundo hundido lleno de secretos.</p>
   <p class="linea" data-l="en">A metroidvania in the vein of Hollow Knight: exploration, demanding combat and a sunken world full of secrets.</p>
   <p class="nota" data-l="es">Gratis, sin anuncios, sin compras y sin conexión. <a href="https://github.com/nombrote/el_errante/releases">Todas las versiones</a></p>
   <p class="nota" data-l="en">Free, no ads, no purchases, no internet needed. <a href="https://github.com/nombrote/el_errante/releases">All versions</a></p>
+  <p><a class="cafe" href="https://paypal.me/nombrote"><span aria-hidden="true">☕</span> <span data-l="es">Invítame a un café</span><span data-l="en">Buy me a coffee</span></a></p>
 </div>
 
 <section class="ancho" aria-labelledby="t-capturas">
@@ -252,6 +254,13 @@
 <section class="ancho" aria-labelledby="t-idiomas">
   <h2 id="t-idiomas"><span data-l="es">11 idiomas</span><span data-l="en">11 languages</span></h2>
   <p class="idiomas">Español · English · Français · Deutsch · Italiano · Português · Русский · 日本語 · 한국어 · 中文 · Polski</p>
+</section>
+
+<section class="ancho" aria-labelledby="t-apoyo">
+  <h2 id="t-apoyo"><span data-l="es">Apoya el juego</span><span data-l="en">Support the game</span></h2>
+  <p data-l="es">El Errante es gratis y lo seguirá siendo, sin anuncios ni compras. Si te ha gustado y quieres ayudar a que siga creciendo, puedes invitarme a un café.</p>
+  <p data-l="en">El Errante is free and will stay free, with no ads or purchases. If you enjoyed it and want to help it keep growing, you can buy me a coffee.</p>
+  <p><a class="cafe" href="https://paypal.me/nombrote"><span aria-hidden="true">☕</span> <span data-l="es">Invítame a un café (PayPal)</span><span data-l="en">Buy me a coffee (PayPal)</span></a></p>
 </section>
 
 <section class="ancho" aria-labelledby="t-chati">
