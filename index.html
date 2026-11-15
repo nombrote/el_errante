@@ -74,6 +74,7 @@
   .boton.otro { background: transparent; color: var(--texto); border: 1px solid var(--borde); }
   .cafe { display: inline-flex; align-items: center; gap: 0.45rem; margin-top: 0.4rem; font: 500 1rem/1 var(--sans); color: var(--farol); text-decoration: none; border: 1px solid var(--farol); border-radius: 999px; padding: 0.55rem 1rem; }
   .cafe:hover { background: rgba(232, 180, 104, 0.12); }
+  .tambien { font: 400 1rem/1.6 var(--sans); color: var(--suave); margin: 1rem auto 0; text-wrap: balance; }
   .linea { font: 500 1.05rem/1.5 var(--sans); color: var(--eco); margin: 1.4rem auto 0; max-width: 40rem; text-wrap: balance; }
   .nota { font: 400 0.95rem/1.5 var(--sans); color: var(--suave); margin-top: 1rem; }
 
@@ -134,15 +135,17 @@
   <p class="grande" data-l="es">Bajo la aldea de Pozoalto se abre un mundo hundido. El Errante, un pequeño viajero encapuchado con su hoz, baja por el pozo para descubrir qué queda ahí abajo.</p>
   <p class="grande" data-l="en">Beneath the village of Highwell lies a sunken world. The Wanderer, a small hooded traveller with a sickle, climbs down the well to find out what remains below.</p>
   <div class="botones">
+    <a class="boton" href="https://apps.microsoft.com/detail/9nctfbj04mpw">
+      <span data-l="es">Microsoft Store</span><span data-l="en">Microsoft Store</span>
+      <small data-l="es">Windows 10 / 11 · se actualiza solo</small><small data-l="en">Windows 10 / 11 · updates itself</small>
+    </a>
     <a class="boton" href="https://github.com/nombrote/el_errante/releases/latest/download/ElErrante-Android.apk">
       <span data-l="es">Descargar para Android</span><span data-l="en">Download for Android</span>
       <small data-l="es">Teléfono, tableta, Android TV y Fire TV · APK</small><small data-l="en">Phone, tablet, Android TV and Fire TV · APK</small>
     </a>
-    <a class="boton otro" href="https://github.com/nombrote/el_errante/releases/latest/download/ElErrante-Windows.zip">
-      <span data-l="es">Descargar para Windows</span><span data-l="en">Download for Windows</span>
-      <small>Windows 10 / 11 · ZIP</small>
-    </a>
   </div>
+  <p class="tambien" data-l="es">Windows sin tienda: <a href="https://github.com/nombrote/el_errante/releases/latest/download/ElErrante-Windows.zip">descarga directa (ZIP)</a> · También en <a href="https://nombrote.itch.io/el-errante-land-of-echoes">itch.io</a> y <a href="https://nombrote.gamejolt.io/el-errante-land-of-echoes">Game Jolt</a></p>
+  <p class="tambien" data-l="en">Windows without the store: <a href="https://github.com/nombrote/el_errante/releases/latest/download/ElErrante-Windows.zip">direct download (ZIP)</a> · Also on <a href="https://nombrote.itch.io/el-errante-land-of-echoes">itch.io</a> and <a href="https://nombrote.gamejolt.io/el-errante-land-of-echoes">Game Jolt</a></p>
   <p class="linea" data-l="es">Un metroidvania en la línea de Hollow Knight: exploración, combate exigente y un mundo hundido lleno de secretos.</p>
   <p class="linea" data-l="en">A metroidvania in the vein of Hollow Knight: exploration, demanding combat and a sunken world full of secrets.</p>
   <p class="nota" data-l="es">Gratis, sin anuncios, sin compras y sin conexión. <a href="https://github.com/nombrote/el_errante/releases">Todas las versiones</a></p>
@@ -240,8 +243,8 @@
       <li>En Downloader, escribe la dirección de descarga del APK e instálalo.</li>
     </ol></div>
     <div class="paso"><h3>Windows</h3><ol>
-      <li>Descarga <code>ElErrante-Windows.zip</code> y descomprímelo.</li>
-      <li>Abre <code>ElErrante.exe</code>. Si Windows avisa, pulsa «Más información» → «Ejecutar de todas formas».</li>
+      <li>Ábrelo en <a href="https://apps.microsoft.com/detail/9nctfbj04mpw">Microsoft Store</a> y pulsa «Obtener». Se instala y se actualiza solo.</li>
+      <li>Sin tienda: descarga <code>ElErrante-Windows.zip</code>, descomprímelo y abre <code>ElErrante.exe</code>. Si Windows avisa, pulsa «Más información» → «Ejecutar de todas formas».</li>
       <li>F11 o Alt+Intro cambian entre ventana y pantalla completa.</li>
     </ol></div>
   </div>
@@ -257,8 +260,8 @@
       <li>In Downloader, type the APK's download address and install it.</li>
     </ol></div>
     <div class="paso"><h3>Windows</h3><ol>
-      <li>Download <code>ElErrante-Windows.zip</code> and unzip it.</li>
-      <li>Open <code>ElErrante.exe</code>. If Windows warns you, click “More info” → “Run anyway”.</li>
+      <li>Open it in the <a href="https://apps.microsoft.com/detail/9nctfbj04mpw">Microsoft Store</a> and click “Get”. It installs and updates itself.</li>
+      <li>Without the store: download <code>ElErrante-Windows.zip</code>, unzip it and open <code>ElErrante.exe</code>. If Windows warns you, click “More info” → “Run anyway”.</li>
       <li>F11 or Alt+Enter switch between window and fullscreen.</li>
     </ol></div>
   </div>
