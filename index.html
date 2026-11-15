@@ -4,10 +4,29 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>El Errante: Tierra de Ecos</title>
-<meta name="description" content="Metroidvania 2D de cuento oscuro para Android, Fire TV y Windows. Gratis, sin anuncios y en 11 idiomas.">
+<meta name="description" content="El Errante: Tierra de Ecos, metroidvania 2D de cuento oscuro para Android, Android TV, Fire TV y Windows. Plataformas, exploración y combate con hoz. Gratis, sin anuncios, cooperativo para dos y en 11 idiomas.">
+<meta name="keywords" content="metroidvania, plataformas, acción y aventura, juego 2D, cooperativo, Android, Fire TV, Android TV, Windows, gratis, sin anuncios">
+<link rel="canonical" href="https://nombrote.github.io/el_errante/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="El Errante">
+<meta property="og:url" content="https://nombrote.github.io/el_errante/">
 <meta property="og:title" content="El Errante: Tierra de Ecos">
-<meta property="og:description" content="Metroidvania 2D de cuento oscuro. Gratis, sin anuncios y en 11 idiomas.">
-<meta property="og:image" content="img/portada_es.jpg">
+<meta property="og:description" content="Metroidvania 2D de cuento oscuro para Android, Fire TV y Windows. Gratis, sin anuncios y en 11 idiomas.">
+<meta property="og:image" content="https://nombrote.github.io/el_errante/img/portada_es.jpg">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="500">
+<meta property="og:locale" content="es_ES">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://nombrote.github.io/el_errante/img/portada_es.jpg">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoGame", "name": "El Errante: Tierra de Ecos", "alternateName": "El Errante: Land of Echoes",
+ "url": "https://nombrote.github.io/el_errante/", "image": "https://nombrote.github.io/el_errante/img/portada_es.jpg", "genre": ["Metroidvania", "Plataformas", "Acción y aventura"],
+ "gamePlatform": ["Android", "Android TV", "Fire TV", "Windows"], "playMode": ["SinglePlayer", "CoOp"],
+ "inLanguage": ["es", "en", "fr", "de", "it", "pt", "ru", "ja", "ko", "zh", "pl"],
+ "author": {"@type": "Person", "name": "Miguel González Pérez"},
+ "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}}
+</script>
 <link rel="icon" href="img/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -53,6 +72,8 @@
   .boton { display: inline-flex; flex-direction: column; align-items: flex-start; gap: 0.15rem; min-width: 13rem; text-decoration: none; color: var(--noche); background: var(--farol); border-radius: 10px; padding: 0.8rem 1.2rem; font: 700 1.1rem/1.2 var(--sans); }
   .boton small { font: 400 0.85rem/1.2 var(--sans); opacity: 0.8; }
   .boton.otro { background: transparent; color: var(--texto); border: 1px solid var(--borde); }
+  .boton.pronto { opacity: 0.6; cursor: default; }
+  .linea { font: 500 1.05rem/1.5 var(--sans); color: var(--eco); margin: 1.4rem auto 0; max-width: 40rem; text-wrap: balance; }
   .nota { font: 400 0.95rem/1.5 var(--sans); color: var(--suave); margin-top: 1rem; }
 
   section { padding-block: 2.5rem; }
@@ -78,6 +99,13 @@
   code { font-family: ui-monospace, Consolas, monospace; font-size: 0.9em; background: var(--noche); border: 1px solid var(--borde); border-radius: 4px; padding: 0 0.3em; }
 
   .idiomas { font: 400 1rem/1.7 var(--sans); color: var(--suave); }
+  .chati { display: flex; gap: 1.4rem; align-items: flex-start; background: var(--piedra); border: 1px solid var(--borde); border-radius: 12px; padding: 1.4rem 1.5rem; }
+  .chati img { flex: none; border-radius: 18px; max-width: 100%; }
+  .chati div { min-width: 0; }
+  .chati p { margin: 0.3rem 0; color: var(--suave); }
+  .chati .enlaces { font: 500 1rem/1.5 var(--sans); margin-top: 0.7rem; overflow-wrap: anywhere; }
+  @media (max-width: 560px) { .chati { flex-direction: column; } }
+  .aviso { flex-basis: 100%; margin: 0; font: 400 0.85rem/1.5 var(--sans); color: var(--suave); opacity: 0.8; }
   footer { border-top: 1px solid var(--borde); padding-block: 2rem 3rem; font: 400 0.95rem/1.6 var(--sans); color: var(--suave); }
   footer .ancho { display: flex; flex-wrap: wrap; gap: 0.5rem 2rem; justify-content: space-between; }
 </style>
@@ -104,11 +132,13 @@
       <span data-l="es">Descargar para Android</span><span data-l="en">Download for Android</span>
       <small data-l="es">Teléfono, tableta, Android TV y Fire TV · APK</small><small data-l="en">Phone, tablet, Android TV and Fire TV · APK</small>
     </a>
-    <a class="boton otro" href="https://github.com/nombrote/el_errante/releases/latest/download/ElErrante-Windows.zip">
-      <span data-l="es">Descargar para Windows</span><span data-l="en">Download for Windows</span>
-      <small>Windows 10 / 11 · ZIP</small>
-    </a>
+    <span class="boton otro pronto" aria-disabled="true">
+      <span>Windows</span>
+      <small data-l="es">Muy pronto</small><small data-l="en">Coming soon</small>
+    </span>
   </div>
+  <p class="linea" data-l="es">Un metroidvania en la línea de Hollow Knight: exploración, combate exigente y un mundo hundido lleno de secretos.</p>
+  <p class="linea" data-l="en">A metroidvania in the vein of Hollow Knight: exploration, demanding combat and a sunken world full of secrets.</p>
   <p class="nota" data-l="es">Gratis, sin anuncios, sin compras y sin conexión. <a href="https://github.com/nombrote/el_errante/releases">Todas las versiones</a></p>
   <p class="nota" data-l="en">Free, no ads, no purchases, no internet needed. <a href="https://github.com/nombrote/el_errante/releases">All versions</a></p>
 </div>
@@ -224,6 +254,18 @@
   <p class="idiomas">Español · English · Français · Deutsch · Italiano · Português · Русский · 日本語 · 한국어 · 中文 · Polski</p>
 </section>
 
+<section class="ancho" aria-labelledby="t-chati">
+  <div class="chati">
+    <img src="img/chati.png" alt="" width="96" height="96">
+    <div>
+      <h2 id="t-chati"><span data-l="es">Hecho con ayuda de Chati.AI</span><span data-l="en">Made with the help of Chati.AI</span></h2>
+      <p data-l="es">El código, las herramientas que dibujan el mundo y las traducciones se hicieron con Chati.AI, un agente de inteligencia artificial gratuito para el ordenador: tiene cara y voz, habla contigo, programa, maneja archivos y el navegador, y funciona con modelos en tu PC o en la nube.</p>
+      <p data-l="en">The code, the tools that draw the world and the translations were made with Chati.AI, a free AI agent for your computer: it has a face and a voice, talks with you, codes, handles files and the browser, and runs with models on your PC or in the cloud.</p>
+      <p class="enlaces"><a href="https://github.com/nombrote/chati.ai">github.com/nombrote/chati.ai</a> · <a href="https://nombrote.github.io/chati.ai/"><span data-l="es">Web de Chati.AI</span><span data-l="en">Chati.AI website</span></a></p>
+    </div>
+  </div>
+</section>
+
 <footer>
   <div class="ancho">
     <div>
@@ -234,6 +276,8 @@
       <a href="privacidad.html"><span data-l="es">Política de privacidad</span><span data-l="en">Privacy policy</span></a>
       · <a href="https://www.linkedin.com/in/miguel-gonzalez-perez">LinkedIn</a>
     </div>
+    <p class="aviso" data-l="es">Hollow Knight es una marca de Team Cherry. El Errante es un juego independiente y original, sin relación con ellos.</p>
+    <p class="aviso" data-l="en">Hollow Knight is a trademark of Team Cherry. El Errante is an original, independent game with no affiliation to them.</p>
   </div>
 </footer>
 
